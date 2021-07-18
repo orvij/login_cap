@@ -1,0 +1,15 @@
+[package]
+name = "login_cap"
+version = "0.0.1"
+edition = "2018"
+categories = ["api-bindings"]
+description = "Rust API for OpenBSD's login_cap"
+keywords = ["bsd", "auth", "api"]
+license = "BSD-4-Clause"
+authors = ["orvi"]
+repository = "https://github.com/orvij/login_cap"
+
+[dependencies]
+libc = "0.2.98"
+nix = "0.21.0"
+login_cap-sys = "0.0.1"
