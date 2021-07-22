@@ -1,6 +1,6 @@
 [package]
 name = "login_cap"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2018"
 categories = ["api-bindings"]
 description = "Rust API for OpenBSD's login_cap"
